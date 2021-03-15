@@ -1,0 +1,7 @@
+<div>SONO IL COMPONENT PADRE</div>
+<input type="text" [(ngModel)]="padreInput" />
+<button (click)="alertSonoIlPadre('PADRE')">PADRE</button>
+<app-figlio
+  [figlioInput]="padreInput"
+  (figlioEventEmitter)="alertSonoIlPadre($event)"
+></app-figlio>

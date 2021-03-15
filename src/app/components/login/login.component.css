@@ -1,0 +1,8 @@
+.om-logo {
+  width: 100%;
+  height: 300px;
+  background-image: url("src/assets/om.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
