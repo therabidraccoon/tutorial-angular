@@ -12,9 +12,10 @@ import { HomeComponent } from './components/home/home.component';
 import { PrimoComponent } from './components/primo/primo.component';
 import { PadreComponent } from './components/padre/padre.component';
 import { FiglioComponent } from './components/figlio/figlio.component';
+import { TestDirettiveComponent } from './components/test-direttive/test-direttive.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, HomeComponent, PrimoComponent, PadreComponent, FiglioComponent],
+  declarations: [AppComponent, LoginComponent, HomeComponent, PrimoComponent, PadreComponent, FiglioComponent, TestDirettiveComponent],
   imports: [BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
   providers: [LoginService, JWTService],
   bootstrap: [AppComponent],

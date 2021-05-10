@@ -1,0 +1,10 @@
+<button (click)="toggleAlert()">{{ getTestoToggle() }}</button>
+
+<div *ngIf="showAlert" class="alert alert-danger my-2">Alert da mostrare</div>
+
+<input type="text" [(ngModel)]="temporaryTodo" />
+<button (click)="addTodo()">ADD TODO</button>
+
+<ul>
+  <li *ngFor="let todo of todoList">{{ todo }}</li>
+</ul>
